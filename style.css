@@ -101,19 +101,19 @@ button{
 
 .sidebar{
     background-color: #10171A;
-    flex: 1;
+    width: 75px;
 }
 
 /* ----------------- */
 
 .panel {
     background-color: #2B363C;
-    flex: 3;
+    width: 350px;
 }
 
 /* ----------------- */
 
 .main {
     background-color: #EDF1F3;
-    flex: 12;
+    flex: 1 ;
 }
