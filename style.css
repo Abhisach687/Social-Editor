@@ -12,16 +12,6 @@ button{
     outline: none;
 }
 
-
-/* BASE STYLE  */
-.app{
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    color: #fff;
-    height: 100vh;
-    width: 100vw;
-}
-
 /* KEYFRAMES  */
 @keyframes fade-in-from-top {
     0% {
@@ -35,6 +25,20 @@ button{
     }
 }
 
+
+/* BASE STYLE  */
+.app{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+
+.app__container{
+    height: calc(100vh - 55px);
+    display: flex;
+}
 
 /* STYLES */
 .header{
@@ -91,4 +95,25 @@ button{
 
 .dd-toggle__text{
 
+}
+
+/* ----------------- */
+
+.sidebar{
+    background-color: #10171A;
+    flex: 1;
+}
+
+/* ----------------- */
+
+.panel {
+    background-color: #2B363C;
+    flex: 3;
+}
+
+/* ----------------- */
+
+.main {
+    background-color: #EDF1F3;
+    flex: 12;
 }
